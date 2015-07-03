@@ -24,7 +24,7 @@ newBirthDescriptor{
 	talents_types = {
 		["spell/explosives"]={true, 0.3},
 		["spell/fire-alchemy"]={true, 0.3},
-		["spell/stone-alchemy"]={true, -0.3},
+		["spell/stone-alchemy"]={false, -0.3},
 		["spell/fire"]={false, 0.3},
 		["cunning/survival"]={false, 0.3},
 		["technique/combat-training"]={true, 0.1},
@@ -33,6 +33,7 @@ newBirthDescriptor{
 		["technique/acrobatics"]={false, 0.3},
 		["cunning/stealth"]={true, 0.3},
 		["cunning/trapping"]={true, 0.3},
+        ["cunning/fire-affinity"]={true, 0.3},
 	},
 	talents = {
 		[ActorTalents.T_CREATE_ALCHEMIST_GEMS] = 1,
