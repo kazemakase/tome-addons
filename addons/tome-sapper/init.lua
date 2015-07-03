@@ -20,7 +20,7 @@
 long_name = "Sapper class"
 short_name = "sapper"
 for_module = "tome"
-version = { 1, 4, 0 }
+version = { 1, 3, 0 }
 addon_version = {0, 0, 1}
 weight = 100
 author = { "kazemakase", "" }
