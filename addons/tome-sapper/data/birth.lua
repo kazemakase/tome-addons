@@ -5,7 +5,9 @@ newBirthDescriptor{
 	type = "subclass",
 	name = "Sapper",
 	desc = {
-		"Sappers are alchemists who like to lay traps. Or maybe they are rogues who like to dabble in magics. They certainly like to blow things up.",
+        "Sappers like to blow their foes up, or failing that, set them on ",
+        "fire. Lacking constitution, they usually operate stealthily and try ",
+        "to nimbly stay out of their opponent's reach.",
 		"Their most important stats are: Magic and Cunning.",
 		"#GOLD#Stat modifiers:",
 		"#LIGHT_BLUE# * +0 Strength, +3 Dexterity, +0 Constitution",
