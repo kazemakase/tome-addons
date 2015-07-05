@@ -33,7 +33,7 @@ newBirthDescriptor{
 		["technique/acrobatics"]={false, 0.3},
 		["cunning/stealth"]={true, 0.3},
 		["cunning/trapping"]={true, 0.3},
-        ["cunning/fire-affinity"]={true, 0.3},
+        ["cunning/firestarter"]={true, 0.3},
 	},
 	talents = {
 		[ActorTalents.T_CREATE_ALCHEMIST_GEMS] = 1,
@@ -69,6 +69,8 @@ newBirthDescriptor{
 	copy_add = {
 		life_rating = 0,
 	},
+
+    experience = 0.01, -- for debugging
 }
 
 getBirthDescriptor("class", "Rogue").descriptor_choices.subclass.Sapper = "allow"
